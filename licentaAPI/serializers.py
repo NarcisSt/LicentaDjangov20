@@ -1,6 +1,7 @@
 from rest_framework import serializers
 from .models import Teams, Players
 
+
 class TeamSerializer(serializers.ModelSerializer):
     class Meta:
         model = Teams
